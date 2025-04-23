@@ -605,6 +605,7 @@ nav .container ul li {
 
 .contact .boxs .box {
   width: 100%;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -696,9 +697,12 @@ nav .container ul li {
   .contact .boxs {
     flex-direction: column; /* Stack contact boxes */
     gap: 1.5rem;
+    margin: 2rem;
   }
 .contact .boxs .box:hover {
         box-shadow: 0 0px 6px var(--clr-primary-hover);
+        
+
     }
  .contact .boxs .box i{
         padding: 3.5rem;
@@ -711,9 +715,19 @@ nav .container ul li {
   }
 }
 
-@media (max-width:426px) {
+@media (max-width:500px) {
   .hero-content h1 {
     font-size: 2.5rem; /* Adjust font size */
+  }
+  .hero .rating i {
+    font-size: 3rem; /* Adjust icon size */
+
+  }
+  .hero-image .rating .text h3 {
+    padding-top: 0.3rem;* 
+  }
+    .hero-image .rating .text p {
+      display: none;
   }
   .hero-content p {
     font-size: 1.4rem; /* Adjust font size */
@@ -732,3 +746,49 @@ nav .container ul li {
   }
     
 }
+@media (max-width:400px) {
+  
+.hero .container .hero-content h3 {
+    font-size: 1.5rem; /* Adjust font size */
+  }
+  .hero .container .hero-content h1{
+    font-size: 2.5rem; /* Adjust font size */
+  }
+  .hero .container .hero-content p {
+    font-size: 1.5rem; /* Adjust icon size */
+  }
+.hero .container .hero-image .rating {
+  width: 40%;
+  }
+  .hero-image .rating i{
+    font-size: 3rem; /* Adjust icon size */
+  }
+  .hero-image .rating .text h3 {
+    font-size: 2.4rem; /* Adjust icon size */
+    padding-top: 1rem;
+  }
+    .hero-image .rating .text p {
+      display: none;
+  }
+  .about .container .about-content h3 {
+    font-size: 1rem;
+  }
+  .about .container .about-content h1 {
+        font-size: 2rem;
+    }
+      .about .container .about-content p {
+        font-size: 1rem;
+    }
+    .about-image .rating i {
+    color: rgb(255, 128, 0);
+    font-size: 5rem;
+}
+.about .container .about-content button:hover {
+    font-size: 1.1rem;}
+    
+.services .services-title{
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+}
+
