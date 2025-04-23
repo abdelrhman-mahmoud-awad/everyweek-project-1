@@ -724,7 +724,7 @@ nav .container ul li {
 
   }
   .hero-image .rating .text h3 {
-    padding-top: 0.3rem;* 
+    padding-top: 0.3rem;
   }
     .hero-image .rating .text p {
       display: none;
@@ -746,7 +746,7 @@ nav .container ul li {
   }
     
 }
-@media (max-width:400px) {
+@media (max-width:300px) {
   
 .hero .container .hero-content h3 {
     font-size: 1.5rem; /* Adjust font size */
@@ -757,11 +757,12 @@ nav .container ul li {
   .hero .container .hero-content p {
     font-size: 1.5rem; /* Adjust icon size */
   }
-.hero .container .hero-image .rating {
-  width: 40%;
+}
+.hero .container .hero-image .rating  h3 {
+  font-size: 1.5rem;
   }
   .hero-image .rating i{
-    font-size: 3rem; /* Adjust icon size */
+    font-size: 1.5rem; /* Adjust icon size */
   }
   .hero-image .rating .text h3 {
     font-size: 2.4rem; /* Adjust icon size */
@@ -790,5 +791,3 @@ nav .container ul li {
   font-size: 2rem;
   padding-top: 3rem;
 }
-}
-
