@@ -273,7 +273,8 @@ nav .container ul li {
 }
 .about .container .about-content button:hover {
   background-color: var(--clr-primary-hover);
-  font-size: 2.1rem;
+  box-shadow: 0 0px 6px var(--clr-primary-hover);
+
   transition: background-color var(--transition), font-size var(--transition);
 }
 
@@ -737,7 +738,7 @@ nav .container ul li {
   }
     
 }
-@media (max-width:300px) {
+@media (max-width:400px) {
   
 .hero .container .hero-content h3 {
     font-size: 1.5rem; /* Adjust font size */
@@ -748,9 +749,8 @@ nav .container ul li {
   .hero .container .hero-content p {
     font-size: 1.5rem; /* Adjust icon size */
   }
-}
-.hero .container .hero-image .rating  h3 {
-  font-size: 1.5rem;
+  .hero .container .hero-image .rating  h3 {
+    font-size: 1.5rem;
   }
   .hero-image .rating i{
     font-size: 1.5rem; /* Adjust icon size */
@@ -759,24 +759,36 @@ nav .container ul li {
     font-size: 2.4rem; /* Adjust icon size */
     padding-top: 1rem;
   }
-    .hero-image .rating .text p {
-      display: none;
+  .hero-image .rating .text p {
+    display: none;
   }
   .about .container .about-content h3 {
     font-size: 1rem;
   }
   .about .container .about-content h1 {
-        font-size: 2rem;
-    }
-      .about .container .about-content p {
-        font-size: 1rem;
-    }
-    .about-image .rating i {
+    font-size: 2rem;
+  }
+  .about .container .about-content p {
+    font-size: 1rem;
+  }
+  .about-image .rating i {
     color: rgb(255, 128, 0);
     font-size: 5rem;
+  }
+  .about-image .rating .text h3 {
+    font-size: 2rem;
+  }
+  .contact .container p{
+    display: none;
+  }
+  .contact .container h3 {
+    font-size: 2rem;
+  }
+  .contact .container button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
 }
-.about .container .about-content button:hover {
-    font-size: 1.1rem;}
     
 .services .services-title{
   font-size: 2rem;
