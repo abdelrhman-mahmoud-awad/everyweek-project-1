@@ -85,16 +85,6 @@ button:hover { background: var(--clr-primary-hover); transform: scale(1.05); box
   justify-content: space-between;
 }
 
-.nav-underline {
-  position: absolute;
-  bottom: 0;
-  height: 2px;
-  background: var(--clr-primary);
-  transition: width var(--transition), left var(--transition);
-  width: var(--underline-width, 0);
-  left: var(--underline-left, 0);
-}
-
 nav .container .logo {
   width: 10%;
   font-size: 2.4rem;
