@@ -450,7 +450,7 @@ nav .container ul li {
   transform: translate(-50%, -50%);
   font-size: 1.5rem;
   margin-bottom: 2rem;
-  color: var(--clr-bg);
+  color: #fff;
   padding: 0 1rem;
 }
 
@@ -462,7 +462,7 @@ nav .container ul li {
   transform: translate(-50%, -50%);
   font-size: 3rem;
   margin-bottom: 2rem;
-  color: var(--clr-bg);
+  color:   #fff;
   padding: 0 1rem;
 }
 
@@ -477,6 +477,7 @@ nav .container ul li {
   font-size: 1.5rem;
   padding: 1.5rem 3rem;
   border-radius: 5px;
+  color: #fff;
 }
 
 .work .work-boxes .box button:hover {
